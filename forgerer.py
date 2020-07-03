@@ -1,5 +1,8 @@
 from bs4 import BeautifulSoup
 import requests
+import argparse
+import webbrowser
+import os
 
 def website(url, m, d):
     with open("index.html", "w") as site:
@@ -22,6 +25,8 @@ def website(url, m, d):
 </html>
         """
         site.write(p)
+    new = 2
+    webbrowser.open('file://' + os.path.realpath('index.html'), new=new)    
 
 def prettyPrint(forms, url):
     for form in forms:
@@ -51,7 +56,12 @@ def creation(forms):
     return dic
 
 def main():
-    url = "" #Enter URL here.
+    parser = argparse.ArgumentParser(description='The (to-be) Definitive CSRF Website Generator', epilog='Hack The Planet!')
+    parser.add_argument('Url', metavar='url', help='The url of the website you are testing', type=str)
+    #parser.add_argument('-m', '--method', help='The specific type of method you want to test(GET, PUSH, ...)', type=str) Doesn't do anything for now, included it for later. 
+    args = parser.parse_args()
+
+    url = args.Url
     page = requests.get(url)
     soup = BeautifulSoup(page.content, "html.parser")
     forms = soup.find_all('form')
