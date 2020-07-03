@@ -1,19 +1,14 @@
 # Forgerer
 > The (to-be) Definitive CSRF Website Creator
 
-badger badge 
-[![Build Status](https://travis-ci.org/doge/wow.svg)](https://travis-ci.org/doge/wow)
-https://img.shields.io/github/issues/Ckrielle/Forgerer
-https://img.shields.io/badge/python%20version-3.8.3-blue
-https://img.shields.io/github/license/Ckrielle/Forgerer
-
 ## Table Of Contents
 * [General Info](#general-info)
 * [Installation](#installation)
 * [Demonstration](#demonstration)
 * [To-Do](#to-do)
 * [Donations](#donations)
-* [Contact Me](#contact me)
+* [Contact Me](#contact-me)
+* [License](#license)
 
 ## General Info
 **CSRF**: CSRF stands for Cross Site Request Forgery. Essentially wherever a request can be made in a website, you can write your own site that sends that request impersonating the user you sent your malicious 
@@ -52,7 +47,7 @@ And whatever else comes to my mind at a later time.
 
 If for some reason you think I deserve money for having written this or any of my other projects, firstly thank you very much I'm humbled. Secondly you can buy me a penguin!
 
-<style>.bmc-button img{height: 34px !important;width: 35px !important;margin-bottom: 1px !important;box-shadow: none !important;border: none !important;vertical-align: middle !important;}.bmc-button{padding: 7px 15px 7px 10px !important;line-height: 35px !important;height:51px !important;text-decoration: none !important;display:inline-flex !important;color:#ffffff !important;background-color:#F471FF !important;border-radius: 5px !important;border: 1px solid transparent !important;padding: 7px 15px 7px 10px !important;font-size: 22px !important;letter-spacing: 0.6px !important;box-shadow: 0px 1px 2px rgba(190, 190, 190, 0.5) !important;-webkit-box-shadow: 0px 1px 2px 2px rgba(190, 190, 190, 0.5) !important;margin: 0 auto !important;font-family:'Cookie', cursive !important;-webkit-box-sizing: border-box !important;box-sizing: border-box !important;}.bmc-button:hover, .bmc-button:active, .bmc-button:focus {-webkit-box-shadow: 0px 1px 2px 2px rgba(190, 190, 190, 0.5) !important;text-decoration: none !important;box-shadow: 0px 1px 2px 2px rgba(190, 190, 190, 0.5) !important;opacity: 0.85 !important;color:#ffffff !important;}</style><link href="https://fonts.googleapis.com/css?family=Cookie" rel="stylesheet"><a class="bmc-button" target="_blank" href="https://www.buymeacoffee.com/Machina"><img src="https://cdn.buymeacoffee.com/buttons/bmc-new-btn-logo.svg" alt="Buy me a penguin"><span style="margin-left:5px;font-size:28px !important;">Buy me a penguin</span></a>
+<a href="https://www.buymeacoffee.com/Machina" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/default-pink.png" alt="Buy Me A Coffee" style="height: 51px !important;width: 217px !important;" ></a>
 
 ## Contact Me
 
