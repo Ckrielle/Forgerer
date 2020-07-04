@@ -47,8 +47,7 @@ And whatever else comes to my mind at a later time.
 
 If for some reason you think I deserve money for having written this or any of my other projects, firstly thank you very much I'm humbled. Secondly you can buy me a penguin!
 
-<a href="https://www.buymeacoffee.com/Machina" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/default-pink.png" alt="Buy Me A Coffee" style="height: 41px !important;width: 100px !important;" ></a>
-
+<a href="https://www.buymeacoffee.com/Machina" target="_blank"><img src="https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png" alt="Buy Me A Coffee" style="height: auto !important;width: auto !important;" ></a>
 ## Contact Me
 
 You can find me on [Twitter](https://twitter.com/3xM4ch1n4).
